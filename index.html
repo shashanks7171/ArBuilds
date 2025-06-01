@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes'>
-    <title>Unity WebGL Player | AR</title>
+    <title>Unity WebGL Player | Menu</title>
     <link rel="stylesheet" href="TemplateData/style.css">
     <style>
          html{
@@ -73,12 +73,12 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/ArBuilds.data.unityweb",
-                    frameworkUrl: "Build/ArBuilds.framework.js.unityweb",
-                    codeUrl: "Build/ArBuilds.wasm.unityweb",
+                    dataUrl: "Build/ArBuilds.data.br",
+                    frameworkUrl: "Build/ArBuilds.framework.js.br",
+                    codeUrl: "Build/ArBuilds.wasm.br",
                     streamingAssetsUrl: "StreamingAssets",
-                    companyName: "DefaultCompany",
-                    productName: "AR",
+                    companyName: "CTS",
+                    productName: "Menu",
                     productVersion: "1.0",
                     //webglContextAttributes: { "preserveDrawingBuffer": true },
                     // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
